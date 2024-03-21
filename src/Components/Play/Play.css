@@ -1,0 +1,49 @@
+.play-video
+{
+    flex-basis: 69%;
+}
+.play-video video
+{
+    width: 100%;
+
+}
+.play-video h3
+{
+    margin-top: 2px ;
+font-weight: 600;
+font-size: 18px;
+}
+.play-video-info
+{
+    background: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 10px ;
+    font-size: 14px;
+    color: #5a5a5a;
+    padding: 5px 1%;
+}
+.react
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.react img
+{
+    width: 40px;
+    
+}
+.publisher
+{
+    background: red;
+    display: flex;
+    align-items: center;
+}
+.publisher img
+{
+    width: 50px;
+    border-radius: 50%;
+}

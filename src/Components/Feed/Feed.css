@@ -1,0 +1,17 @@
+.feed
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px ,2fr));
+    grid-column-gap: 15px;
+    grid-row-gap: 30px;
+    margin-top: 15px;
+}
+.card img
+{
+   width: 100%;
+   border-radius: 10px;
+}
+.card:hover
+{
+  transform: scale(5px);
+}

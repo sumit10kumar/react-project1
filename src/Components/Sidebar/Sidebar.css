@@ -1,0 +1,66 @@
+.sidebar
+{
+    background: #dad0d0;
+    width: 200px;
+    height: 100vh;    
+    position: fixed;
+    transition: 0.5s;
+}
+
+.side-links
+{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: fit-content;
+    padding: 5px 10px;
+}
+.side-links img
+{
+    width: 30px;
+}
+.side-links p 
+{
+    margin-left: 10px;
+    color:#555 ;
+    cursor: pointer;
+}
+
+
+.subscribe-list
+{
+    padding: 10px 15px;
+}
+.subscribe-list h3
+{
+    color:  #555;
+}
+.subscribe-list .side-link
+{
+    display: flex;
+    align-items: center;
+    
+}
+.subscribe-list .side-link img
+{
+    width: 30px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+.side-link p
+{
+    margin-left: 5px;
+}
+.small-sidebar{
+    width: 5%;
+    transition: 0.5s;
+}
+.small-sidebar p
+{
+    display: none;
+}
+.small-sidebar h3
+{
+    display: none;
+    
+}
